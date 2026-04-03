@@ -24,8 +24,8 @@ export const personal = {
   heroPhoto,
   aboutPhoto,
   stats: [
-    { value: '10+',  label: 'Projects Built' },
-    { value: '2+',   label: 'Years Experience' },
+    { value: '20+',  label: 'Projects Built' },
+    { value: '3+',   label: 'Years Experience' },
     { value: '3',    label: 'Tech Stacks' },
     { value: '100%', label: 'Commitment' },
   ],
@@ -37,7 +37,7 @@ export const skills = [
   { label: 'SQL / MySQL',    percent: 88 },
   { label: 'REST APIs',      percent: 85 },
   { label: 'AI Integration', percent: 80 },
-  { label: 'WordPress',      percent: 70 },
+  { label: 'Web Security',      percent: 70 },
 ]
 
 export const techTags = [
