@@ -6,7 +6,7 @@ const highlights = [
   'Laravel (PHP) on the backend — clean MVC architecture and REST APIs',
   'SQL / MySQL as the primary database layer',
   'AI integration experience — built a full customer support chatbot into a live IFMS system',
-  'Currently pursuing BSc. Computer Science at JKUAT',
+  'BSc. Computer Science graduate — Jomo Kenyatta University of Agriculture & Technology',
 ]
 
 export default function ResumeCV() {
