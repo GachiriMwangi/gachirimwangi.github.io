@@ -2,7 +2,7 @@ name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
-    branches: [dev]   # triggers every time you push to the dev branch
+    branches: [master]   # triggers every time you push to the dev branch
 
 permissions:
   contents: read
