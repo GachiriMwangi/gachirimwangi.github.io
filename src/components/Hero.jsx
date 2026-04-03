@@ -14,10 +14,10 @@ export default function Hero() {
 
           {/* ── Left: text ── */}
           <div>
-            <div className="hero__badge">
+            {/* <div className="hero__badge">
               <span className="hero__badge-dot" />
               Available for work
-            </div>
+            </div> */}
 
             <h1 className="hero__title">
               Hi, I'm<br /><span>{personal.name}</span>
@@ -65,12 +65,12 @@ export default function Hero() {
                   )
                 }
               </div>
-              <div className="hero__deco-1" />
-              <div className="hero__deco-2" />
-              <div className="hero__tag-card">
+              {/* <div className="hero__deco-1" />
+              <div className="hero__deco-2" /> */}
+              {/* <div className="hero__tag-card">
                 <div className="hero__tag-icon"><FiCode /></div>
                 React · Laravel
-              </div>
+              </div> */}
             </div>
           </div>
 
