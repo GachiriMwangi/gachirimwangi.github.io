@@ -60,6 +60,13 @@ export const journey = [
     institution: "St. Mary's Boys High School",
     description: 'Completed the Kenya Certificate of Secondary Education. Grade: A−.',
   },
+  {
+    type: 'experience',
+    date: '2024 – Present',
+    title: 'Technical Support Team Lead & System Analyst',
+    institution: 'Kusoya Limited',
+    description: 'Leading the technical support team while serving as System Analyst. Responsible for system maintenance, troubleshooting, user support, and ensuring smooth day-to-day operation of business systems.',
+  },
 ]
 
 export const projects = [
