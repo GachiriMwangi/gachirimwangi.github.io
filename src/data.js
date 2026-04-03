@@ -13,7 +13,7 @@ export const personal = {
   firstName: 'Gachiri',
   role: 'Full Stack Engineer',
   tagline: 'React on the frontend. Laravel on the backend. AI where it matters.',
-  bio: "I'm a full stack developer working with React on the frontend and Laravel (PHP) on the backend, with SQL as my go-to database layer. I also integrate AI into systems — including a full customer support chatbot integration into a live IFMS platform. I enjoy building clean, reliable web applications that solve real problems.",
+  bio: "I'm a full stack developer working with React on the frontend and Laravel (PHP) on the backend, with SQL as my go-to database layer. I also integrate AI into systems — including a full customer support chatbot integration into a live IFMS platform. BSc. Computer Science graduate from JKUAT.",
   location: 'Nairobi, Kenya',
   email: 'gachirimwangi2021@gmail.com',
   phone: '+254 112 211 691',
@@ -51,7 +51,7 @@ export const journey = [
     date: '2021 – 2025',
     title: 'BSc. Computer Science',
     institution: 'Jomo Kenyatta University of Agriculture & Technology',
-    description: 'Studying core computer science fundamentals: algorithms, data structures, software engineering, databases and networks.',
+    description: 'Graduated with a Bachelor of Science in Computer Science. Studied core fundamentals including algorithms, data structures, software engineering, databases and networks.',
   },
   {
     type: 'education',
@@ -91,24 +91,24 @@ export const projects = [
 
 export const testimonials = [
   {
-    name: 'Client Name',
-    role: 'CEO, Company Name',
-    text: 'Gachiri delivered our project ahead of schedule with exceptional attention to detail. The website he built for us has significantly improved our online presence.',
-    avatar: null,
-    initials: 'CN',
+    name: 'Isaac Murimi',
+    role: 'CEO, Isawil Contractors and Traders',
+    text: 'Gachiri delivered our construction management system ahead of schedule with exceptional attention to detail. The system has streamlined how we manage our projects and has made a real difference to our operations.',
+    avatar: null, // replace with image import from assets when ready
+    initials: 'IM',
   },
   {
-    name: 'Colleague Name',
-    role: 'Senior Engineer, Tech Company',
-    text: 'Working alongside Gachiri was a great experience. He brings strong problem-solving skills and communicates clearly throughout the project.',
-    avatar: null,
-    initials: 'CN',
+    name: 'Rachel Mwangi',
+    role: 'Founder, Kijani Galleries',
+    text: 'Gachiri built us a fully functional, responsive website that we now use to run our business and connect with clients daily. He understood exactly what we needed and delivered a polished product we are proud of.',
+    avatar: null, // replace with image import from assets when ready
+    initials: 'RM',
   },
   {
-    name: 'Client Name',
-    role: 'Founder, Startup',
-    text: 'Highly recommend Gachiri for any web development work. He understood our requirements quickly and produced clean, maintainable code.',
-    avatar: null,
-    initials: 'CN',
+    name: 'Pauline Mburu',
+    role: 'Founder, Bloom Beauty and Essentials',
+    text: 'Gachiri built a system to manage and run my beauty business, and handled our SEO work that has helped us grow our visibility and reach more customers. Highly recommend him for any web development work.',
+    avatar: null, // replace with image import from assets when ready
+    initials: 'PB',
   },
 ]
