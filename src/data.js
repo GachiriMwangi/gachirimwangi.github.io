@@ -48,7 +48,7 @@ export const techTags = [
 export const journey = [
   {
     type: 'education',
-    date: '2021 – Present',
+    date: '2021 – 2025',
     title: 'BSc. Computer Science',
     institution: 'Jomo Kenyatta University of Agriculture & Technology',
     description: 'Studying core computer science fundamentals: algorithms, data structures, software engineering, databases and networks.',
