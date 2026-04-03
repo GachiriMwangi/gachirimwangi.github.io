@@ -55,7 +55,7 @@ export default function Navbar() {
             href="mailto:gachirimwangi2021@gmail.com"
             className="btn btn-orange navbar__cta"
           >
-            Hire Me
+            Contact Me
           </a>
 
           <button
@@ -74,7 +74,7 @@ export default function Navbar() {
             </a>
           ))}
           <a href="mailto:gachirimwangi2021@gmail.com" className="btn btn-orange" style={{ marginTop: '0.5rem' }}>
-            Hire Me
+            Contact Me
           </a>
         </div>
       </div>
