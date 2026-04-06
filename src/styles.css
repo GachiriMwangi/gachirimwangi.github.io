@@ -689,6 +689,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 .project-card__link:hover { color: var(--blue); border-color: var(--blue); }
 .project-card__link.disabled { opacity: 0.4; pointer-events: none; }
+button.project-card__link { background: none; cursor: pointer; font-family: inherit; text-decoration: none; }
 
 @media (max-width: 960px) { .projects__grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .projects__grid { grid-template-columns: 1fr; } }
@@ -838,6 +839,14 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 @media (max-width: 768px) {
   .resumecv__inner { grid-template-columns: 1fr; gap: 2.5rem; }
+  .resumecv__card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .resumecv__card .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 
