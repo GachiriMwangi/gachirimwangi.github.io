@@ -1,5 +1,9 @@
-import { FiGithub, FiExternalLink } from 'react-icons/fi'
+import { FiMessageSquare } from 'react-icons/fi'
 import { projects } from '../data'
+
+function scrollToContact() {
+  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+}
 
 export default function Projects() {
   return (
@@ -10,14 +14,6 @@ export default function Projects() {
             <p className="label">Portfolio</p>
             <h2 className="heading" style={{ marginBottom: 0 }}>Projects I've Built</h2>
           </div>
-          <a
-            href="https://github.com/gachirimwangi"
-            className="btn btn-outline"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FiGithub /> All on GitHub
-          </a>
         </div>
 
         <div className="projects__grid">
@@ -43,22 +39,12 @@ export default function Projects() {
                 <h3 className="project-card__title">{project.title}</h3>
                 <p className="project-card__desc">{project.description}</p>
                 <div className="project-card__links">
-                  <a
-                    href={project.github}
+                  <button
+                    onClick={scrollToContact}
                     className="project-card__link"
-                    target="_blank"
-                    rel="noreferrer"
                   >
-                    <FiGithub /> Code
-                  </a>
-                  <a
-                    href={project.live || '#'}
-                    className={`project-card__link${!project.live ? ' disabled' : ''}`}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FiExternalLink /> Live Demo
-                  </a>
+                    <FiMessageSquare /> View Demo
+                  </button>
                 </div>
               </div>
             </div>
