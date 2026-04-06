@@ -3,9 +3,9 @@ import {
   aboutPhoto,
   cvPdf,
   resumePdf,
-  gerichImg,
-  blogImg,
-  coursesImg,
+  farmImg,
+  constructionImg,
+  malariaImg,
 } from './assets'
 
 export const personal = {
@@ -71,28 +71,22 @@ export const journey = [
 
 export const projects = [
   {
-    title: 'Restaurant Website — React',
-    description: 'A fully responsive restaurant landing page built with React, featuring a modern UI, animated menu sections, and smooth scroll navigation.',
-    tags: ['React', 'JavaScript', 'CSS'],
-    github: 'https://github.com/GachiriMwangi/Restaurant-Website-React-Project',
-    live: null,
-    image: gerichImg,
+    title: 'Farm Management System',
+    description: 'A comprehensive farm management platform built for large-scale farmers to fully manage livestock and farm products. Tracks animal health records, breeding cycles, feed schedules, and produce inventory — giving farmers complete visibility and control over their operations.',
+    tags: ['Laravel', 'PHP', 'MySQL', 'React', 'REST API'],
+    image: farmImg,
   },
   {
-    title: 'Blog Posts Platform — EJS',
-    description: 'A full-stack blogging platform where users can create, read, and share posts. Built with a server-side rendered EJS frontend backed by a SQL database.',
-    tags: ['EJS', 'SQL', 'REST API'],
-    github: 'https://github.com/GachiriMwangi/EJS-Posts-Project',
-    live: null,
-    image: blogImg,
+    title: 'Construction Project Manager',
+    description: 'A full-cycle construction project management system covering every phase from ground works (site clearing, excavation, trenches) through to final finishing. Every expenditure is tracked and attributed, ensuring full financial accountability for every coin spent on the project.',
+    tags: ['Laravel', 'PHP', 'MySQL', 'React', 'REST API'],
+    image: constructionImg,
   },
   {
-    title: 'Course Prompt — Next.js',
-    description: 'A Next.js application that fetches and displays curated courses from GitHub repositories, with clean filtering and card-based layout.',
-    tags: ['Next.js', 'React', 'GitHub API'],
-    github: 'https://github.com/GachiriMwangi/NextJs-posts-project',
-    live: null,
-    image: coursesImg,
+    title: 'Malaria Prediction — Kenya (ML)',
+    description: 'A machine learning system that predicts malaria case loads per county in Kenya for the coming months. Ingests historical case data from Excel and live weather data from the OpenWeather API, cleans and trains on it, then serves predictions via a conversational interface with full NLP support — including text-to-speech and speech-to-text so every user can engage regardless of literacy level.',
+    tags: ['Python', 'Machine Learning', 'NLP', 'OpenWeather API', 'TTS / STT'],
+    image: malariaImg,
   },
 ]
 
